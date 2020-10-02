@@ -1,10 +1,25 @@
 def has_negatives(a):
-    """
-    YOUR CODE HERE
-    """
-    # Your code here
+    
+    post = {}
+    neg = {}
+    repeat = []
 
-    return result
+    for num in a:
+        # check if number is positive
+        if num > 0:
+            post[num] = num
+            num *= -1 
+            if num in neg:
+                repeat.append(num * -1)
+        else:
+            neg[num] = num
+            num *= -1 
+            if num in post:
+                repeat.append(num)
+
+    
+    return repeat
+
 
 
 if __name__ == "__main__":

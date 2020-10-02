@@ -22,11 +22,11 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
-1. Hashing functions
-2. Collision resolution
-3. Performance of basic hash table operations
-4. Load factor
-5. Automatic resizing
+1. Hashing functions -> turn a string into a number , same number every time
+2. Collision resolution -> when there are collision you create a linked list on the index, depending on load factor you rezide the table
+3. Performance of basic hash table operations -> O(1) lookups insert delete   O(n) rezise 
+4. Load factor -> how many items are in the list num inserted / num available   .75 rezide 2x
+5. Automatic resizing -> depends on laod factor 2X capacity
 6. Various use cases for hash tables
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
@@ -35,12 +35,12 @@ We expect you to be able to answer questions in these areas. Your responses cont
 
 ### Task 1: Project Set-Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as a collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [x] Create a forked copy of this project
+- [x] Add your team lead as a collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
